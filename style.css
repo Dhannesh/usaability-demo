@@ -246,12 +246,20 @@ footer {
 }
 .subfooter {
   background-color: #b9cde4;
+  flex-direction: column;
+  align-items: center;
+}
+.subfooter p {
+  font-size: 1rem;
+  color: black;
+  line-height: 1rem;
+  padding-bottom: 10px;
 }
 .subfooter-container {
   justify-content: center;
   gap: 20px;
   align-items: center;
-  padding: var(--padding-inline-section);
+  padding: 5px var(--padding-inline-section);
 }
 .spacer {
   min-height: 50vh;
